@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>shifumi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>shifumi</h1>
+
+
+    <div class="container py-5">
+        <h1 class="mb-4">Jeu Shifumi</h1>
+
+        <div class="d-grid gap-3">
+            <button class="btn btn-primary btn-lg py-5 w-100 f-size-5" onclick="battle('pierre')"> Pierre</button>
+            <button class="btn btn-success btn-lg py-5 w-100" onclick="battle('feuille')"> Feuille</button>
+            <button class="btn btn-danger btn-lg py-5 w-100" onclick="battle('ciseau')"> Ciseau</button>
+        </div>
+
+        <div class="gif1 d-flex justify-content-center" id="gif1"></div>
+        <div class="d-flex justify-content-center my-3" id="gif2"></div>
+        <div id="resultat" class=" resultat"></div>
+        <div class="d-flex justify-content-around">
+
+            <div id="joueur"> joueur</div>
+            <div id="ordi">ordi</div>
+            <div id="egalite">egalité</div>
+        </div>
+        <div class=" d-flex justify-content-around">
+            <div id="victoire">0</div>
+            <div id="defaite">0</div>
+            <div id="egal">0</div>
+        </div>
+    </div class="regle">
+    <div>
+        <h3>Règles</h3>
+        <p>Le but est simple il faut utiliser un bouton et gagner en 6 round.
+            pour gagner il faut que la pierre gagne contre le ciseau mais perd contre la feuille, le ciseau gagne contre
+            la
+            feuillemais perd contre la pierre et la feuille gagne contre la pierre mais pas contre le siceau.
+        </p>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/gif.js@0.2.0/dist/gif.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

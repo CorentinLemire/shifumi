@@ -1,0 +1,52 @@
+body {
+    background-image: url(asset/img/Copilot_20250625_115508.png);
+    border: 1px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+
+h1 {
+    text-align: center;
+}
+
+
+.resultat {
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.container {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 15px;
+    text-shadow: 2px 2px 5px black;
+}
+
+button {
+    font-size: 70px;
+
+    font-weight: bold;
+    padding: 30px;
+
+    border-radius: 20px;
+
+}
+
+.regle {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
