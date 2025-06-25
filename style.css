@@ -43,10 +43,11 @@ button {
 
 }
 
-.regle {
-    font-size: 80px;
+.regle,
+h2 {
+    font-size: 50px;
     font-weight: bold;
-    color: white;
+    color: black;
     text-align: center;
     padding: 20px;
 }
